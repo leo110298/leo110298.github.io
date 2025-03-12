@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    
-</body>
-</html>
+<body><style>
+        .navbar-dark.bg-dark {
+            background-color: #161724 !important;
+        }
+    </style>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/LionnerSolutions/index.php"><img src="img/logo.svg" alt="LionnerSolutions" style="width: 60px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/LionnerSolutions/index.php" style="font-size: 1.25rem;">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 1.25rem;">
+                        Servicios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/LionnerSolutions/Page/servicios_computadoras.php">Reparación de computadoras</a>
+                        <a class="dropdown-item" href="/LionnerSolutions/Page/servicios_celulares.php">Reparación de celulares</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/LionnerSolutions/Page/info.php" style="font-size: 1.25rem;">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/LionnerSolutions/Page/contacto.php" style="font-size: 1.25rem;">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <div class="container-fluid bg-secondary text-white" style="position: relative; width: 100%; height: 90vh; overflow: hidden;">
+        <video autoplay muted loop class="position-absolute w-100 h-100" style="object-fit: cover; opacity: 0.5;">
+            <source src="video/fondo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="position-relative z-index-1 text-center" style="top: 20%; transform: translateY(-50%);">
+            <h1>Centro de Reparacion de computadoras y celulares</h1>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="col-12 col">
+                <h2 class="text-center">Reparacion de:</h2>
+            </div>
+        <div class="row">
+        <div class="col-sm-6">
+        <div class="card bg-dark text-white">
+  <img src="Img/compu.jpg" class="card-img" alt="..." style="object-fit: cover; opacity: 0.3;">
+  <div class="card-img-overlay">
+    <h2 class="card-title text-center">Celulares</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+  </div>
+  <div class="col-sm-6">
+  <div class="card bg-dark text-white">
+  <img src="Img/celu.jpg" class="card-img" alt="..." style="object-fit: cover; opacity: 0.3;">
+  <div class="card-img-overlay">
+    <h2 class="card-title text-center" >Laptops y Gabinetes</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+  </div>
+</div>
+        </div>
+      <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <footer class="bg-light text-center py-3">
+          <p>&copy; 2024 Lionner Solutions. Todos los derechos reservados.</p>
+      </footer>
+  </body>
+  </html>
